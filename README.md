@@ -8,5 +8,7 @@ Invalid coordinates causing start > end errors downstream?
 We’ve all been there.
 
 bed_exporter is the solution to all of your problems with a single line of code. Export clean BED files without issues!
+```
 source("https://raw.githubusercontent.com/ezecalvo/bed_exporter/main/bed_exporter.R")
 write_bed(my_df, "out.bed")
+```
